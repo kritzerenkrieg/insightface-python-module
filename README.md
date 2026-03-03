@@ -11,7 +11,7 @@ face-recog-api
 │   │   ├── main.py          # Entry point for the FastAPI application
 │   │   ├── routers
 │   │   │   ├── register.py  # API endpoint for registering images
-│   │   │   └── recognize.py  # API endpoint for recognizing images
+│   │   │   └── recognize.py # API endpoint for recognizing images
 │   │   └── schemas
 │   │       └── index.py     # Pydantic models for request and response schemas
 │   ├── face_recog
@@ -21,11 +21,11 @@ face-recog-api
 │   │   └── cli.py           # Command-line interface for image operations
 ├── tests
 │   └── test_api.py          # Unit tests for API endpoints
-├── Dockerfile                # Instructions to build the Docker image
-├── docker-compose.yml        # Service orchestration for the application
-├── .dockerignore             # Files to ignore when building the Docker image
-├── requirements.txt          # Python dependencies for the project
-└── README.md                 # Project documentation
+├── Dockerfile               # Instructions to build the Docker image
+├── docker-compose.yml       # Service orchestration for the application
+├── .dockerignore            # Files to ignore when building the Docker image
+├── requirements.txt         # Python dependencies for the project
+└── README.md                # Project documentation
 ```
 
 ## Setup Instructions
