@@ -4,3 +4,6 @@ numpy
 scipy
 Pillow
 onnxruntime
+fastapi
+uvicorn[standard]
+python-multipart
